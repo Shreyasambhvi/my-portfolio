@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Shreya Sambhvi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm a passionate and driven tech enthusiast with a strong foundation in AI, web development, and creative technology. I love combining innovation with real-world impact — from building intelligent solutions for agriculture to developing sleek, user-focused web applications. I've secured a top rank in the Smart India Hackathon and continuously explore new tools to push the boundaries of what technology can do.</p>
+    </section>
+</body>
+</html>

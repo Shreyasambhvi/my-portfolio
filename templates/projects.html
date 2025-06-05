@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Shreya Sambhvi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Smart Agriculture for Crop Resilience</h3>
+            <p>AI-driven project to improve farming by analyzing climate data.</p>
+            <ul>
+                <li>ML model to predict yield and recommend crops.</li>
+                <li>Flask + HTML/CSS frontend.</li>
+                <li><a href="https://github.com/Shreyasambhvi" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Hotel Reservation Simulation</h3>
+            <ul>
+                <li>Simpy + Tkinter simulation with Matplotlib.</li>
+                <li><a href="https://github.com/Shreyasambhvi" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Sudoku Solver</h3>
+            <ul>
+                <li>Backtracking algorithm with custom UI.</li>
+                <li><a href="https://github.com/Shreyasambhvi" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

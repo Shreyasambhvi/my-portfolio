@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Shreya Sambhvi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:shreyasambhvi@gmail.com">shreyasambhvi@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shreya-sambhvi-7956052b9" target="_blank">Visit LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Shreyasambhvi" target="_blank">Visit GitHub</a></p>
+    </section>
+</body>
+</html>
