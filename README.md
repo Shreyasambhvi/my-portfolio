@@ -1,15 +1,33 @@
-# Shreya Sambhvi – Portfolio
+# 💻 Shreya Sambhvi – Portfolio Website
 
-This is my personal dynamic portfolio website built using Flask and HTML/CSS.
+Welcome to my personal dynamic portfolio!  
+This website showcases my work in AI, web development, and creative technology — all built with care using Flask and custom-designed HTML/CSS.
 
-## 💡 Features
-- Multi-page layout (Home, About, Projects, Contact)
-- Smooth transitions and animations
-- Subtle gradient background inspired by Cassie's aesthetic
-- Flask backend with clean routing
+---
+
+## ✨ Features
+
+- 🔹 Multi-page layout (Home, About, Projects, Contact)
+- 🔹 Smooth transitions and subtle animations
+- 🔹 Minimalist and aesthetic background design inspired by Cassie’s portfolio
+- 🔹 Flask backend with clean Jinja2 templating
+
+---
+
+## 🛠 Tech Stack
+
+- Python (Flask)
+- HTML5, CSS3
+- Jinja2 Templates
+- Git & GitHub
+
+---
 
 ## 🚀 Getting Started
-Run locally with:
+
+To run this project locally:
 
 ```bash
-python app.py 
+git clone https://github.com/your-username/shreya-portfolio.git
+cd shreya-portfolio
+python app.py
